@@ -3,6 +3,7 @@ package com.tara.mealplanshuffle.api;
 import com.tara.mealplanshuffle.api.models.Food;
 import com.tara.mealplanshuffle.api.models.Meal;
 import com.tara.mealplanshuffle.api.models.Tag;
+import com.tara.mealplanshuffle.api.repositories.TagRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,11 +15,12 @@ import java.util.List;
 public class Controller {
 
     private final ApiService apiService;
+    private final TagRepository tagRepository; // todo tara fix this later
 
     // Tag endpoints
     @GetMapping("/tags")
     public ResponseEntity<List<Tag>> getAllTags() {
-        return ResponseEntity.ok(apiService.getAllTags());
+        return ResponseEntity.ok(tagRepository.findAll());
     }
 
     @PostMapping("/tags")

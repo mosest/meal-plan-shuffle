@@ -3,4 +3,9 @@ spring:
     name: demo
   data:
     mongodb:
-      uri: mongodb://localhost:27017/meal-plan-shuffle
+      uri: mongodb://localhost:27017/Tara1MDB
+      database: MealPlanDb
+logging:
+  level:
+    com.mongodb: TRACE
+    org.mongodb: TRACE
