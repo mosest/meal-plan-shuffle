@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "69e91edc854a2f529995caaa"
+  },
+  "name": "breakfast"
+},
+{
+  "_id": {
+    "$oid": "69e91ee8854a2f529995caab"
+  },
+  "name": "lunch"
+},
+{
+  "_id": {
+    "$oid": "69e91ef4854a2f529995caac"
+  },
+  "name": "dinner"
+},
+{
+  "_id": {
+    "$oid": "69e91eff854a2f529995caad"
+  },
+  "name": "snacks"
+},
+{
+  "_id": {
+    "$oid": "69e91f08854a2f529995caae"
+  },
+  "name": "effort-high"
+},
+{
+  "_id": {
+    "$oid": "69e91f1c854a2f529995caaf"
+  },
+  "name": "effort-low"
+},
+{
+  "_id": {
+    "$oid": "69e91f29854a2f529995cab0"
+  },
+  "name": "time-high"
+},
+{
+  "_id": {
+    "$oid": "69e91f31854a2f529995cab1"
+  },
+  "name": "time-low"
+},
+{
+  "_id": {
+    "$oid": "69e91f66854a2f529995cab4"
+  },
+  "name": "good-source-of-iron"
+},
+{
+  "_id": {
+    "$oid": "69e91f75854a2f529995cab5"
+  },
+  "name": "good-source-of-protein"
+},
+{
+  "_id": {
+    "$oid": "69e91f83854a2f529995cab6"
+  },
+  "name": "good-source-of-fiber"
+},
+{
+  "_id": {
+    "$oid": "69e92437854a2f529995cac4"
+  },
+  "name": "vegetable"
+},
+{
+  "_id": {
+    "$oid": "69e92444854a2f529995cac5"
+  },
+  "name": "side"
+},
+{
+  "_id": {
+    "$oid": "69e9244d854a2f529995cac6"
+  },
+  "name": "meal"
+}]

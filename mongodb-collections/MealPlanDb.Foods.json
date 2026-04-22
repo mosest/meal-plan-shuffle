@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "69e922f9854a2f529995cab9"
+  },
+  "name": "Green Beans",
+  "calories": 0,
+  "tags": [
+    "vegetable",
+    "side"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e923f3854a2f529995cac2"
+  },
+  "name": "Macaroni and Cheese",
+  "calories": 400,
+  "tags": [
+    "main"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e92464854a2f529995cac8"
+  },
+  "name": "Protein Shake (Chocolate)",
+  "calories": 200,
+  "tags": [
+    "snack",
+    "caffeine",
+    "good-source-of-protein"
+  ]
+},
+{
+  "_id": {
+    "$oid": "69e924be854a2f529995cac9"
+  },
+  "name": "Tomato and Salt",
+  "calories": 0,
+  "tags": [
+    "vegetable",
+    "side"
+  ]
+}]
