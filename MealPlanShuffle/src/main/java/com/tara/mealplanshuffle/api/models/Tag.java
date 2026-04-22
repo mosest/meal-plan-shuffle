@@ -1,21 +1,19 @@
-package com.tara.mealplanshuffle.api;
+package com.tara.mealplanshuffle.api.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "foods")
-public class Food {
+@Document(collection = "tags")
+public class Tag {
     @Id
     private String id;
     private String name;
-    private String description;
 
-    public Food() {
+    public Tag() {
     }
 
-    public Food(String name, String description) {
+    public Tag(String name) {
         this.name = name;
-        this.description = description;
     }
 
     public String getId() {
@@ -32,14 +30,6 @@ public class Food {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 }
 

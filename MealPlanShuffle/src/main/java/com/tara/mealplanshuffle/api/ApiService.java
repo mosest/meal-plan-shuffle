@@ -1,5 +1,11 @@
 package com.tara.mealplanshuffle.api;
 
+import com.tara.mealplanshuffle.api.repositories.FoodRepository;
+import com.tara.mealplanshuffle.api.repositories.MealRepository;
+import com.tara.mealplanshuffle.api.repositories.TagRepository;
+import com.tara.mealplanshuffle.api.models.Food;
+import com.tara.mealplanshuffle.api.models.Meal;
+import com.tara.mealplanshuffle.api.models.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

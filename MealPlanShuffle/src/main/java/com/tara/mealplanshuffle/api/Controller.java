@@ -1,5 +1,8 @@
 package com.tara.mealplanshuffle.api;
 
+import com.tara.mealplanshuffle.api.models.Food;
+import com.tara.mealplanshuffle.api.models.Meal;
+import com.tara.mealplanshuffle.api.models.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
